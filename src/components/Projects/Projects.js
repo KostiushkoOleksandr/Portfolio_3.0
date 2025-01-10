@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import umsys from "../../Assets/Projects/umsystem.jpg";
 import cloud from "../../Assets/Projects/CloudStorage.jpg";
+import poetry from "../../Assets/Projects/poetry.png";
 
 
 function Projects() {
@@ -37,6 +38,17 @@ function Projects() {
                 description="Development of a cloud service for organized data storage."
                 ghLink="https://github.com/KostiushkoOleksandr/cloud-Storage-Updated"
                 // demoLink="https://umsys.com.ua/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+                imgPath={poetry}
+                isBlog={false}
+                title="AlexKost-Poetry"
+                description="I began writing poems, inspired by life events and emotions that cannot always be expressed in simple words."
+                ghLink="https://github.com/KostiushkoOleksandr/my-poetry-app"
+                demoLink="https://alexkost-poetry.vercel.app/"
             />
           </Col>
         </Row>
