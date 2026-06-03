@@ -40,6 +40,17 @@ function Projects() {
                 // demoLink="https://umsys.com.ua/"
             />
           </Col>
+
+           <Col md={4} className="project-card">
+            <ProjectCard
+                imgPath={poetry}
+                isBlog={false}
+                title="AlexKost-Poetry"
+                description="I began writing poems, inspired by life events and emotions that cannot always be expressed in simple words."
+                ghLink="https://github.com/KostiushkoOleksandr/my-poetry-app"
+                demoLink="https://alexkost-poetry.vercel.app/"
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
